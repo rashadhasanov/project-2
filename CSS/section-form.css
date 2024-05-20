@@ -1,0 +1,79 @@
+.section-form {
+  padding: 150px 85px;
+}
+.section-form .form-container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.section-form .form-container .form-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.form-container .form-heading h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.form-container .form-heading h3 {
+  font-weight: 700;
+  font-size: 64px;
+}
+.form-container .form-heading p {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0 auto;
+}
+
+form .element-container input,
+form .select-input select,
+form .textarea-container textarea {
+  padding: 16px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #5e3bee;
+}
+
+form .element-container {
+  display: flex;
+  gap: 20px;
+}
+form .element-container div {
+  width: 50%;
+}
+
+form .element-container div,
+form .select-input,
+form .textarea-container {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+form .checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form .btn-container {
+  text-align: center;
+}
+
+form .btn-container button {
+  text-align: center;
+  background-color: #5e3bee;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 42px;
+  color: white;
+}

@@ -1,0 +1,36 @@
+.section-one {
+  padding: 150px 85px;
+}
+.section-one .sec1-desc {
+  margin-bottom: 106px;
+}
+
+.section-one .sec1-desc h3 {
+  font-size: 22px;
+  font-weight: 600px;
+  margin-bottom: 21px;
+}
+.section-one .sec1-desc h2 {
+  font-size: 64px;
+  font-weight: 700px;
+}
+.section-one .sec1-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-one .sec1-cards .card {
+  padding: 32px;
+  background-color: #f5fcff;
+  width: 23%;
+  border-radius: 10px;
+}
+
+.sec1-cards .card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 30px 0 21px 0;
+}
+.sec1-cards .card p {
+  font-weight: 400;
+}

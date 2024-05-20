@@ -1,0 +1,214 @@
+@media only screen and (max-width: 440px) {
+  /* Header start */
+
+  header .header-container {
+    padding: 15px 20px;
+    width: 100%;
+  }
+
+  header .header-container .header-button {
+    display: none;
+  }
+
+  header .header-container .nav-menu {
+    display: none;
+  }
+
+  header div:last-child {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  header div:last-child i {
+    display: block;
+    font-size: 38px;
+  }
+
+  header .header-container .header.logo img {
+    width: 20%;
+  }
+
+  header .header-container .nav-menu {
+    display: none;
+  }
+
+  /* Header end */
+
+  /* Hero section start */
+  .hero-container {
+    padding: 15px 20px;
+    flex-direction: column;
+  }
+
+  .hero-container .hero-decsription {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .hero-container .hero-decsription h2 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 15px 0;
+  }
+
+  .hero-container .hero-img .img {
+    width: 100%;
+    order: -1;
+  }
+  .hero-container .hero-img {
+    order: -1;
+  }
+  /* Hero section end */
+
+  /* Section one start */
+  .section-one {
+    padding: 15px 20px;
+    /* flex-direction: column; */
+  }
+  .section-one .sec1-desc {
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .section-one .sec1-desc h2 {
+    font-size: 36px;
+    font-weight: 700px;
+  }
+
+  .section-one .sec1-cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section-one .sec1-cards .card {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Section one end */
+
+  /* Section two start */
+  .section-two {
+    padding: 15px 20px;
+    margin-top: 40px;
+  }
+
+  .section-two .sec2-container {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section-two .sec2-container .sec2-img img {
+    width: 100%;
+  }
+
+  .section-two .sec2-container .sec2-about {
+    text-align: center;
+  }
+  /* Section two end */
+
+  /* Section three start */
+  .section-three {
+    padding: 15px 20px;
+    margin-top: 50px;
+  }
+
+  .section-three .projects-heading {
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap: 30px;
+  }
+
+  .section-three .projects-heading .left-box {
+    text-align: center;
+  }
+
+  .section-three .sec3-card-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .section-three .sec3-card-container .sec-3-card {
+    width: 100%;
+    text-align: center;
+  }
+  /* Section three end */
+
+  /* Section four start */
+  .section-four {
+    padding: 15px 20px;
+  }
+
+  .sec4-heading {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .sec4-heading h2 {
+    font-weight: 700;
+    font-size: 38px;
+  }
+
+  .section-four .sec4-card-container {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .section-four .sec4-card-container .sec-4-card {
+    width: 100%;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+  }
+  /* Section four end */
+
+  /* Section form start */
+  .section-form {
+    padding: 50px 20px;
+  }
+
+  .section-form .form-container {
+    width: 100%;
+  }
+
+  .section-form .form-container .form-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+  form .element-container {
+    flex-direction: column;
+  }
+
+  form .element-container div {
+    width: 100%;
+  }
+  /* Section form end */
+
+  /* Footer start */
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footer .footer-nav {
+    text-align: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer .footer-nav ul {
+    flex-direction: column;
+  }
+
+  .footer .author p,
+  a {
+    font-size: 8px;
+  }
+  /* Footer end */
+}

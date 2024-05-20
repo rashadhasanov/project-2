@@ -1,0 +1,39 @@
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body.dark-mode button {
+  color: white;
+  border-color: white;
+}
+
+body.dark-mode ul li a,
+body.dark-mode .footer a,
+body.dark-mode .footer ul li a {
+  color: whitesmoke;
+}
+
+body.dark-mode .section-one .sec1-cards .card {
+  background-color: #090909;
+  border: 1px solid wheat;
+}
+
+body.dark-mode .section-three .sec3-card-con {
+  background-color: black;
+  border: 1px solid wheat;
+}
+
+body.dark-mode .section-three .sec3-card-container .sec-3-card a {
+  color: wheat;
+}
+
+body.dark-mode .section-four,
+body.dark-mode .footer,
+body.dark-mode .hero-container {
+  background-color: #090909;
+}
+
+body.dark-mode .footer .author {
+  border-top-color: white;
+}

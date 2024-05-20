@@ -1,0 +1,66 @@
+.section-four {
+  background-color: #f5fcff;
+  padding: 150px 85px;
+}
+
+.sec4-heading {
+  margin-bottom: 106px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.sec4-heading h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.sec4-heading h2 {
+  font-weight: 700;
+  font-size: 61px;
+}
+
+.section-four .sec4-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-four .sec4-card-container .sec-4-card {
+  border: 1px solid #006b6a;
+  border-radius: 8px;
+  padding: 42px;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+}
+
+.section-four .sec4-card-container .sec-4-card .sec-4-card-job {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-four .sec4-card-container .sec-4-card .sec-4-card-job div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.section-four
+  .sec4-card-container
+  .sec-4-card
+  .sec-4-card-job
+  div:last-child
+  h5 {
+  font-weight: 600;
+  font-size: 22px;
+}
+.section-four
+  .sec4-card-container
+  .sec-4-card
+  .sec-4-card-job
+  div:last-child
+  h6 {
+    font-weight: 400;
+  font-size: 20px;
+}

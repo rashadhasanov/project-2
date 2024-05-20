@@ -1,0 +1,64 @@
+.section-three {
+  padding: 150px 85px;
+}
+.section-three .projects-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 106px;
+}
+
+.section-three .projects-heading .left-box {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.section-three .projects-heading .left-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.section-three .projects-heading .left-box h3 {
+  font-size: 64px;
+  font-weight: 700;
+}
+.section-three .projects-heading button {
+  background-color: #e62872;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  color: white;
+}
+
+.section-three .sec3-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-three .sec3-card-container .sec-3-card {
+  width: 32%;
+}
+
+.section-three .sec3-card-container .sec-3-card img {
+  width: 100%;
+}
+
+.section-three .sec3-card-container .sec-3-card div {
+  padding: 32px;
+}
+
+.section-three .sec3-card-container .sec-3-card div h4 {
+  font-weight: 700;
+  font-size: 32px;
+}
+.section-three .sec3-card-container .sec-3-card div p {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px 0 32px 0;
+}
+.section-three .sec3-card-container .sec-3-card div a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #5e3bee;
+}

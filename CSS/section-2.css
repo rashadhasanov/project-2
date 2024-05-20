@@ -1,0 +1,37 @@
+.section-two {
+  padding: 133px 85px;
+}
+
+.section-two .sec2-container {
+  display: flex;
+  gap: 110px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-two .sec2-container .sec2-img img {
+  width: 650px;
+}
+
+.section-two .sec2-container .sec2-about .about-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section-two .sec2-container .sec2-about {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.section-two .sec2-container .sec2-about h2 {
+  font-size: 64px;
+}
+.section-two .sec2-container .sec2-about h4 {
+  font-size: 24px;
+}
+
+.section-two .sec2-container .sec2-about p {
+  font-size: 18px;
+}

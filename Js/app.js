@@ -1,13 +1,14 @@
-const listItems = document.querySelectorAll("a");
+const nav = document.querySelector(".nav-menu");
 
-for (let i = 0; i < listItems.length; i++) {
-  listItems[i].addEventListener("click", function () {
-    for (let j = 0; j < listItems.length; j++) {
-      listItems[j].classList.remove("active-link");
-    }
-    listItems[i].classList.add("active-link");
+nav.addEventListener("click", (e) => {
+  const clicked = e.target;
+  const siblings = clicked.closest(".nav-menu").querySelectorAll(".link");
+  if (!clicked.classList.contains("link")) return;
+  siblings.forEach((el) => {
+    if (el !== clicked) el.classList.remove("active-link");
   });
-}
+  clicked.classList.add("active-link");
+});
 
 const darkMode = document.querySelector(".dark-mode");
 
